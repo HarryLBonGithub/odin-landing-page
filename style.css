@@ -1,0 +1,9 @@
+* {
+    box-sizing: border-box;
+
+}
+
+.card img{
+    width: 100px;
+    height: 100px;
+}
