@@ -171,3 +171,10 @@
     font-size: large;
     border-radius: 5px;
 }
+
+.footer{
+    padding:16px;
+    background: #1F2937;
+    color:#F9FAF8;
+    text-align: center;
+}
