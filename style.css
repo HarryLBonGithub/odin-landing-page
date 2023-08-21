@@ -125,3 +125,26 @@
     text-align: center;
     color: gray;
 }
+
+.quote-section{
+    background-color: #E5E7EB;
+    color: #1F2937;
+    font-size: 36px;
+}
+
+.quote-container{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-top: 72px;
+    padding-bottom: 72px;
+}
+
+.quote{
+    font-weight: 100;
+}
+
+.quoted{
+    align-self: flex-end;
+    font-weight: 700;
+}
