@@ -5,19 +5,25 @@
 
 }
 
+.max-width-one{
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
 .card img{
     width: 100px;
     height: 100px;
 }
 
 .header {
-    background :#1F2937
+    background :#1F2937;
 }
 
 .navline {
     display: flex;
     justify-content: space-between;
     padding:8px;
+    
 }
 
 .navline h1 {
@@ -34,4 +40,44 @@
     font-size: 18px;
     color: #E5E7EB;
     display: flex;
+    gap: 16px;
+}
+
+.header-content{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 72px;
+    padding-bottom: 72px;
+    gap: 32px;
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.header-content .hero-text{
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+.header-content-left{
+    flex: 1 1 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.header-content img{
+    flex: 1 1 0px;
+    width: 200px;
+}
+
+.header-content-left button{
+    background: #3882F6;
+    color: #F9FAF8;
+    padding: 8px 32px 8px 32px;
+    border: 0px;
+    flex-grow: 0;
+    align-self:flex-start;
+    font-weight: 700;
+    border-radius: 5px;
 }
