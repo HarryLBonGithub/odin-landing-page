@@ -1,9 +1,37 @@
 * {
     box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin:0px;
 
 }
 
 .card img{
     width: 100px;
     height: 100px;
+}
+
+.header {
+    background :#1F2937
+}
+
+.navline {
+    display: flex;
+    justify-content: space-between;
+    padding:8px;
+}
+
+.navline h1 {
+    font-size: 24px;
+    color: #F9FAF8;
+    margin:0px;
+    padding:0px;
+}
+
+.navline ul{
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+    font-size: 18px;
+    color: #E5E7EB;
+    display: flex;
 }
